@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Mi Presentación</title>
+    </head>
+    <body>
+        <!-- El header -->
+        <header class="page-header">
+            <img src="./img/logo-santi.png" class="logo" />
+            <img src="./img/hamburger.svg" class="hamburger" />
+
+            <!-- Barra de navegación oculta -->
+            <nav class="navigation-bar">
+                <a href="#soy-santi" class="navigation-link">Quién soy</a>
+                <a href="#servicios" class="navigation-link">Servicios</a>
+                <a href="#escribime" class="navigation-link">Escribime</a>
+            </nav>
+        </header>
+
+        <!-- Primera sección: la presentación -->
+        <section class="section-one">
+            <h1 class="title">Bienvenidxs a mi site</h1>
+            <img src="./img/persona.svg" class="man-vector" />
+        </section>
+
+        <!-- Segunda sección: Información personal -->
+        <section id="soy-santi" class="section-whoami">
+            <article class="info-text">
+                <h2 class="subtitle-info">Soy Santi</h2>
+                <p class="paragraph-info">
+                    La contraseña de mi mail es Lorem ipsum
+                    ñamfifrufifalifrufifalifru, amet consectetur adipisicing
+                    elit. Vel quibusdam eius magni, dignissimos ipsum mollitia
+                    minima. Iusto deleniti omnis tenetur quibusdam, molestiae
+                    doloribus eligendi officia ducimus mollitia fugiat,
+                    laboriosam similique.
+                </p>
+            </article>
+            <img src="./img/check.svg" class="check" />
+        </section>
+
+        <!-- Tercera sección: Mis servicios -->
+        <section id="servicios" class="section-myservices">
+            <h2 class="subtitle-myservices">Mis servicios</h2>
+            <div class="things-i-do-container">
+                <div class="things-i-do">
+                    <img src="./img/desktop.svg" class="desktop-vector" />
+                    <h3 class="things-i-do-subt">Hago cosas</h3>
+                    <p class="things-i-do-par">
+                        Sé hacer esto Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Et alias impedit voluptatibus,
+                        similique in placeat corrupti sequi quibusdam ipsa quam
+                        quisquam consequatur accusamus consequuntur neque,
+                        dolore, numquam consectetur maxime autem.
+                    </p>
+                </div>
+                <div class="things-i-do">
+                    <img src="./img/desktop.svg" class="desktop-vector" />
+                    <h3 class="things-i-do-subt">Y más cosas</h3>
+                    <p class="things-i-do-par">
+                        También me la banco con Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Et alias impedit
+                        voluptatibus, similique in placeat corrupti sequi
+                        quibusdam ipsa quam quisquam consequatur accusamus
+                        consequuntur neque, dolore, numquam consectetur maxime
+                        autem.
+                    </p>
+                </div>
+                <div class="things-i-do">
+                    <img src="./img/desktop.svg" class="desktop-vector" />
+                    <h3 class="things-i-do-subt">Y también otras cosas</h3>
+                    <p class="things-i-do-par">
+                        Por último, puedo Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Et alias impedit
+                        voluptatibus, similique in placeat corrupti sequi
+                        quibusdam ipsa quam quisquam consequatur accusamus
+                        consequuntur neque, dolore, numquam consectetur maxime
+                        autem.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuarta sección - Contacto -->
+        <section id="escribime" class="section-contact">
+            <h2 class="subtitle-contact">Escribime</h2>
+            <form class="input-form">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" name="name" id="name" class="input-name" />
+                <label for="email" class="form-label">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="input-email"
+                />
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    class="input-message"
+                ></textarea>
+                <button class="send-button">Enviar</button>
+            </form>
+        </section>
+
+        <!-- El footer -->
+        <footer class="page-footer">
+            <div class="first-container">
+                <img src="./img/logo-santi.png" class="footer-logo" />
+                <span class="copyright">© 2021 Santiago</span>
+            </div>
+            <div class="second-container">
+                <a
+                    class="social-media"
+                    href="https://www.instagram.com/santiromero_27/"
+                >
+                    <img
+                        src="./img/instagram-logo.png"
+                        class="instagram-logo"
+                    />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/santiago-romero-gherdina-6a92071b3/"
+                    class="social-media"
+                    ><img src="./img/linkedin.svg" class="linkedin-logo"
+                /></a>
+                <a href="https://github.com/SantiRomero27" class="social-media"
+                    ><img src="./img/github.svg" class="github-logo"
+                /></a>
+            </div>
+        </footer>
+    </body>
+</html>
